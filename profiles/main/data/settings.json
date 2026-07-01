@@ -124,33 +124,36 @@
         "https://github.com/microsoft/vscode/wiki/*": true,
         "https://spatie.be/docs/laravel-data/v4/introduction": {
             "approveRequest": true,
-            "approveResponse": false,
+            "approveResponse": false
         },
         "https://spatie.be": {
             "approveRequest": false,
-            "approveResponse": true,
+            "approveResponse": true
         },
         "https://larazeus.com": true,
         "https://github.com": {
-            "approveRequest": false,
-            "approveResponse": true,
+            "approveResponse": true
         },
         "https://raw.githubusercontent.com": {
             "approveRequest": false,
-            "approveResponse": true,
+            "approveResponse": true
         },
         "https://api.github.com": {
             "approveRequest": false,
-            "approveResponse": true,
+            "approveResponse": true
         },
         "https://jsr.io/@fresh/plugin-vite/1.0.8/src/plugin.ts": {
             "approveRequest": true,
-            "approveResponse": false,
+            "approveResponse": false
         },
         "https://jsr.io": true,
         "https://gleam-time.hexdocs.pm": true,
         "https://docs.hercules-ci.com/arion": true,
         "https://tailwindcss.com": true,
+        "https://marketplace.visualstudio.com/items": true,
+        "https://marketplace.visualstudio.com": true,
+        "https://github.com/zokugun/vscode-sync-settings": true,
+        "https://github.com/zokugun": true
     },
     "[gdscript]": {
         "editor.defaultFormatter": "geequlim.godot-tools",
@@ -173,6 +176,7 @@
         "tasks",
         "uiState"
     ],
+    "syncSettings.confirmSync": false,
     "syncSettings.crons": {
         "review": "0 * * * *",
         "download": "*/15 * * * *",
