@@ -8,16 +8,6 @@
     "[typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "github.copilot.enable": {
-        "*": false,
-        "plaintext": false,
-        "markdown": false,
-        "scminput": false,
-        "nix": false,
-        "c": false,
-        "php": false,
-        "gleam": false
-    },
     "code-runner.runInTerminal": true,
     "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -351,5 +341,6 @@
     ],
     "julia.symbolCacheDownload": true,
     "julia.enableCrashReporter": false,
-    "julia.juliaup.install.hint": false
+    "julia.juliaup.install.hint": false,
+    "chat.disableAIFeatures": false
 }
