@@ -174,8 +174,8 @@
         "uiState"
     ],
     "syncSettings.crons": {
-        "review": "0 * * * *", // every hour
-        "download": "*/15 * * * *", // every 15 minutes
-        "upload": "*/5 * * * *" // every 5 minutes
+        "review": "0 * * * *",
+        "download": "*/15 * * * *",
+        "upload": "*/5 * * * *"
     }
 }
