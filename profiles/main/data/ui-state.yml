@@ -57,22 +57,6 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   !config.extensions.showRecommendationsOnlyOnDemand &&
   !sortByUpdateDate\"},{\"when\":\"defaultExtensionViews &&
   hasInstalledExtensions\"},{\"when\":\"defaultExtensionViews &&
-  hasInstalledMcpServers && !chatSetupDisabledInWorkspace && !chatSetupHidden &&
-  !config.chat.disableAIFeatures\"},{\"when\":\"config.chat.mcp.gallery.enabled
-  && defaultExtensionViews && !chatSetupDisabledInWorkspace && !chatSetupHidden
-  && !config.chat.disableAIFeatures && !hasInstalledMcpServers &&
-  mcpServersGalleryStatus == 'available' || config.chat.mcp.gallery.serviceUrl
-  && defaultExtensionViews && !chatSetupDisabledInWorkspace && !chatSetupHidden
-  && !config.chat.disableAIFeatures && !hasInstalledMcpServers &&
-  mcpServersGalleryStatus == 'available' || defaultExtensionViews &&
-  !chatSetupDisabledInWorkspace && !chatSetupHidden &&
-  !config.chat.disableAIFeatures && !hasInstalledMcpServers &&
-  mcpServersGalleryStatus == 'available' && productQualityType !=
-  'stable'\"},{\"when\":\"defaultExtensionViews && !chatSetupDisabledInWorkspace
-  && !chatSetupHidden && !config.chat.disableAIFeatures &&
-  !config.chat.mcp.gallery.enabled && !config.chat.mcp.gallery.serviceUrl &&
-  !hasInstalledMcpServers && mcpServersGalleryStatus == 'available' &&
-  productQualityType == 'stable'\"},{\"when\":\"defaultExtensionViews &&
   hasInstalledExtensions\"},{\"when\":\"defaultExtensionViews &&
   hasInstalledAgentPlugins &&
   !chatSetupHidden\"},{\"when\":\"defaultExtensionViews && !chatSetupHidden &&
@@ -87,22 +71,9 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   virtualWorkspace\"},{\"when\":\"searchUnsupportedWorkspaceExtensions &&
   virtualWorkspace\"},{\"when\":\"searchDeprecatedExtensions\"},{\"when\":\"sea\
   rchRestartRequiredExtensions\"},{\"when\":\"searchAgentPlugins &&
-  !chatSetupHidden\"},{\"when\":\"config.chat.mcp.gallery.enabled &&
-  searchMcpServers && !chatSetupDisabledInWorkspace && !chatSetupHidden &&
-  !config.chat.disableAIFeatures && mcpServersGalleryStatus == 'available' ||
-  config.chat.mcp.gallery.serviceUrl && searchMcpServers &&
-  !chatSetupDisabledInWorkspace && !chatSetupHidden &&
-  !config.chat.disableAIFeatures && mcpServersGalleryStatus == 'available' ||
-  searchMcpServers && !chatSetupDisabledInWorkspace && !chatSetupHidden &&
-  !config.chat.disableAIFeatures && mcpServersGalleryStatus == 'available' &&
-  productQualityType != 'stable'\"},{\"when\":\"searchMcpServers &&
-  !chatSetupDisabledInWorkspace && !chatSetupHidden &&
-  !config.chat.disableAIFeatures && !config.chat.mcp.gallery.enabled &&
-  !config.chat.mcp.gallery.serviceUrl && mcpServersGalleryStatus == 'available'
-  && productQualityType ==
-  'stable'\"}]},{\"id\":\"workbench.view.extension.test\",\"themeIcon\":{\"id\":\
-  \"test-view-icon\"},\"name\":\"Testing\",\"isBuiltin\":true,\"views\":[{\"when\
-  \":\"testing.providerCount >
+  !chatSetupHidden\"}]},{\"id\":\"workbench.view.extension.test\",\"themeIcon\"\
+  :{\"id\":\"test-view-icon\"},\"name\":\"Testing\",\"isBuiltin\":true,\"views\
+  \":[{\"when\":\"testing.providerCount >
   0\"},{\"when\":\"testing.isTestCoverageOpen\"},{\"when\":\"go.hasProfiles\"}]\
   },{\"id\":\"workbench.view.extension.references-view\",\"themeIcon\":{\"id\":\
   \"references\"},\"name\":\"References\",\"isBuiltin\":false,\"views\":[{\"when\
@@ -166,7 +137,7 @@ workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.chat","themeI
   !chatSetupDisabledInWorkspace && !chatSetupHidden &&
   !config.chat.disableAIFeatures"}]}]'
 workbench.auxiliaryBar.size: "300"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["snippets",true],["plaintext",true],["yaml",true],["nix",true],["opentofu",true],["jsonc",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["snippets",true],["yaml",true],["opentofu",true],["jsonc",true],["nix",true],["plaintext",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true},{"id":"denoTasks","isHidden":true},{"id":"commitViewProvider","isHidden":false},{"id":"compareCommitViewProvider","isHidden":false},{"id":"go.explorer","isHidden":false},{"id":"go.package.outline","isHidden":false},{"id":"rustDependencies","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false}]'
 workbench.newDefaultThemeNotification: "true"
 workbench.panel.alignment: center
