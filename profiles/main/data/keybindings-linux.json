@@ -19,5 +19,10 @@
         "key": "ctrl+shift+alt+down",
         "command": "-editor.action.copyLinesDownAction",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+[Backquote]",
+        "command": "github.copilot.chat.completions.disable",
+        "when": "config.editor.inlineSuggest.enabled && github.copilot.activated && github.copilot.completions.enabled && github.copilot.extensionUnification.activated"
     }
 ]
