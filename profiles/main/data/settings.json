@@ -179,7 +179,6 @@
     "syncSettings.confirmSync": false,
     "syncSettings.crons": {
         "review": "0 * * * *",
-        "download": "*/15 * * * *",
         "upload": "*/5 * * * *"
     },
     "github.copilot.enable": {
