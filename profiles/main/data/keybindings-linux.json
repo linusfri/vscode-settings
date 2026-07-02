@@ -22,7 +22,6 @@
     },
     {
         "key": "ctrl+[Backquote]",
-        "command": "github.copilot.chat.completions.disable",
-        "when": "config.editor.inlineSuggest.enabled && github.copilot.activated && github.copilot.completions.enabled && github.copilot.extensionUnification.activated"
+        "command": "github.copilot.chat.completions.toggle"
     }
 ]
