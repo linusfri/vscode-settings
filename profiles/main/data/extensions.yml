@@ -1,4 +1,6 @@
-disabled: []
+disabled:
+  - id: GitHub.copilot-chat
+    uuid: 7ec7d6e6-b89e-4cc5-a59b-d6c4d238246f
 enabled:
   - id: 4ops.terraform
     uuid: b861aa84-146f-440f-b6be-76124b02b729
@@ -34,7 +36,6 @@ enabled:
     uuid: a6a0c5b2-d078-4bf5-a9ee-4e37054414b3
   - id: geequlim.godot-tools
     uuid: bbcbb8de-2baf-455f-a458-d5a6f084cebb
-  - id: GitHub.copilot-chat
   - id: github.vscode-github-actions
     uuid: 04f49bfc-8330-4eee-8237-ea938fb755ef
   - id: gleam.gleam
