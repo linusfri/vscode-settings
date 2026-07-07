@@ -13,10 +13,12 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   !config.gitHistory.hideCommitViewExplorer\"},{\"when\":\"git.commit.compare.c\
   ompared && git.commit.compare.view.show &&
   !config.gitHistory.hideCompareCommitViewExplorer\"},{\"when\":\"go.showExplor\
-  er\"},{\"when\":\"go.showPackageOutline\"}]},{\"id\":\"workbench.view.search\
-  \",\"themeIcon\":{\"id\":\"search-view-icon\"},\"name\":\"Search\",\"isBuiltin\
-  \":true,\"views\":[{}]},{\"id\":\"workbench.view.scm\",\"themeIcon\":{\"id\":\
-  \"source-control-view-icon\"},\"name\":\"Source
+  er\"},{\"when\":\"go.showPackageOutline\"},{\"when\":\"config.rust-analyzer.s\
+  howDependenciesExplorer &&
+  inRustProject\"}]},{\"id\":\"workbench.view.search\",\"themeIcon\":{\"id\":\"\
+  search-view-icon\"},\"name\":\"Search\",\"isBuiltin\":true,\"views\":[{}]},{\
+  \"id\":\"workbench.view.scm\",\"themeIcon\":{\"id\":\"source-control-view-icon\
+  \"},\"name\":\"Source
   Control\",\"isBuiltin\":true,\"views\":[{\"when\":\"scm.providerCount &&
   scm.providerCount != '0'\"},{},{\"when\":\"scm.historyProviderCount &&
   scm.historyProviderCount !=
@@ -36,8 +38,9 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   jsDebugHasExcludedCallers && debugType == 'pwa-msedge' ||
   jsDebugHasExcludedCallers && debugType ==
   'pwa-node'\"},{\"when\":\"jsDebugNetworkAvailable\"},{},{},{\"when\":\"julia.\
-  isActive\"}]},{\"id\":\"workbench.view.remote\",\"themeIcon\":{\"id\":\"remot\
-  e-explorer-view-icon\"},\"name\":\"Remote
+  isActive\"},{\"when\":\"debugType == 'lldb'\"},{\"when\":\"debugType ==
+  'lldb'\"}]},{\"id\":\"workbench.view.remote\",\"themeIcon\":{\"id\":\"remote-\
+  explorer-view-icon\"},\"name\":\"Remote
   Explorer\",\"isBuiltin\":true,\"views\":[]},{\"id\":\"workbench.view.extensio\
   ns\",\"themeIcon\":{\"id\":\"extensions-view-icon\"},\"name\":\"Extensions\",\
   \"isBuiltin\":true,\"views\":[{\"when\":\"defaultExtensionViews &&
@@ -144,10 +147,11 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   eMigrations &&
   pgsql.isVSCode\"}]},{\"id\":\"workbench.view.extension.rustSyntaxTreeContainer\
   \",\"themeIcon\":{\"id\":\"list-tree\"},\"name\":\"Rust Syntax
-  Tree\",\"isBuiltin\":false,\"views\":[]},{\"id\":\"workbench.view.extension.c\
-  opilot-chat\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/gith\
-  ub.copilot-chat-0.49.0/assets/debug-icon.svg\",\"scheme\":\"file\"},\"name\":\
-  \"Chat
+  Tree\",\"isBuiltin\":false,\"views\":[{\"when\":\"config.rust-analyzer.showSy\
+  ntaxTree &&
+  inRustProject\"}]},{\"id\":\"workbench.view.extension.copilot-chat\",\"iconUrl\
+  \":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/github.copilot-chat-0.49.0/\
+  assets/debug-icon.svg\",\"scheme\":\"file\"},\"name\":\"Chat
   Debug\",\"isBuiltin\":false,\"views\":[{\"when\":\"github.copilot.chat.showLo\
   gView\"}]},{\"id\":\"workbench.view.extension.context-inspector\",\"themeIcon\
   \":{\"id\":\"inspect\"},\"name\":\"Language Context
