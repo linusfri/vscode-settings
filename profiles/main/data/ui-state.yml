@@ -2,11 +2,11 @@ amiralizadeh9480.laravel-extra-intellisense: '{"laravel-extra-intellisense-versi
 bmewburn.vscode-intelephense-client: '{"intelephense.licence.key":"003EAINHNQB4FL2","intelephenseVersion":"1.18.5"}'
 fill-labs.dependi: '{"dependi.deviceID":"c7c40c92-0bc8-4d03-be21-6a587c3ac8bb","dependi.shownVersion":"0.7.25"}'
 jebbs.plantuml: '{"version":"2.18.1"}'
-KylinIDETeam.gitlens: '{"gitlens:views:welcome:visible":true,"gitlens:version":"0.1.10","gitlens:synced:version":"0.1.10"}'
+KylinIDETeam.gitlens: '{"gitlens:views:welcome:visible":true}'
 ms-python.vscode-python-envs: '{"globalSettingsMigration.systemEnvManagerRemoved":true}'
 redhat.ansible: '{"lightspeed.migratedFromSettings":true}'
 vadimcn.vscode-lldb: '{"lastLaunchedVersion":"1.12.2"}'
-workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":false,"order":0},{"id":"workbench.view.search","pinned":true,"visible":false,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":false,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":false,"order":3},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extensions","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.python","pinned":true,"visible":false,"order":14},{"id":"workbench.view.extension.ansible-explorer","pinned":true,"visible":false,"order":16},{"id":"workbench.view.extension.github-actions","pinned":true,"visible":false,"order":12},{"id":"workbench.view.extension.godotTools","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.julia-explorer","pinned":true,"visible":false,"order":13},{"id":"workbench.view.extension.opentofu","pinned":true,"visible":false,"order":15},{"id":"workbench.view.extension.pgObjectExplorer","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.rustSyntaxTreeContainer","pinned":true,"visible":false,"order":17},{"id":"workbench.view.extension.copilot-chat","pinned":true,"visible":false,"order":10},{"id":"workbench.view.extension.context-inspector","pinned":true,"visible":false,"order":11}]'
+workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":false,"order":0},{"id":"workbench.view.search","pinned":true,"visible":false,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":false,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":false,"order":3},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extensions","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.python","pinned":true,"visible":false,"order":14},{"id":"workbench.view.extension.ansible-explorer","pinned":true,"visible":false,"order":16},{"id":"workbench.view.extension.github-actions","pinned":true,"visible":false,"order":11},{"id":"workbench.view.extension.godotTools","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.julia-explorer","pinned":true,"visible":false,"order":12},{"id":"workbench.view.extension.opentofu","pinned":true,"visible":false,"order":15},{"id":"workbench.view.extension.pgObjectExplorer","pinned":true,"visible":false,"order":13},{"id":"workbench.view.extension.rustSyntaxTreeContainer","pinned":true,"visible":false,"order":17},{"id":"workbench.view.extension.copilot-chat","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.context-inspector","pinned":true,"visible":false,"order":10},{"id":"workbench.view.extension.gitlens","pinned":true,"visible":false,"order":18}]'
 workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \"themeIcon\":{\"id\":\"explorer-view-icon\"},\"name\":\"Explorer\",\"isBuilt\
   in\":true,\"views\":[{},{},{},{\"when\":\"timelineHasProvider\"},{\"when\":\"\
@@ -24,9 +24,13 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   Control\",\"isBuiltin\":true,\"views\":[{\"when\":\"scm.providerCount &&
   scm.providerCount != '0'\"},{},{\"when\":\"scm.historyProviderCount &&
   scm.historyProviderCount !=
-  '0'\"}]},{\"id\":\"workbench.view.debug\",\"themeIcon\":{\"id\":\"run-view-ic\
-  on\"},\"name\":\"Run and
-  Debug\",\"isBuiltin\":true,\"views\":[{\"when\":\"debugUx ==
+  '0'\"},{\"when\":\"!gitlens:disabled\"},{\"when\":\"!gitlens:disabled\"},{\"w\
+  hen\":\"!gitlens:disabled\"},{\"when\":\"!gitlens:disabled\"},{\"when\":\"!gi\
+  tlens:disabled\"},{\"when\":\"!gitlens:disabled\"},{\"when\":\"!gitlens:disab\
+  led\"},{\"when\":\"!gitlens:disabled\"},{\"when\":\"!gitlens:disabled\"},{\"w\
+  hen\":\"!gitlens:disabled\"},{\"when\":\"!gitlens:disabled\"}]},{\"id\":\"wor\
+  kbench.view.debug\",\"themeIcon\":{\"id\":\"run-view-icon\"},\"name\":\"Run
+  and Debug\",\"isBuiltin\":true,\"views\":[{\"when\":\"debugUx ==
   'simple'\"},{\"when\":\"debugUx == 'default'\"},{\"when\":\"debugUx ==
   'default'\"},{\"when\":\"debugUx ==
   'default'\"},{\"when\":\"loadedScriptsSupported && debugUx ==
@@ -158,7 +162,11 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   gView\"}]},{\"id\":\"workbench.view.extension.context-inspector\",\"themeIcon\
   \":{\"id\":\"inspect\"},\"name\":\"Language Context
   Inspector\",\"isBuiltin\":false,\"views\":[{\"when\":\"github.copilot.chat.sh\
-  owContextInspectorView\"}]}]"
+  owContextInspectorView\"}]},{\"id\":\"workbench.view.extension.gitlens\",\"ic\
+  onUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/kylinideteam.gitlens-0\
+  .1.10-universal/images/gitlens-activitybar.svg\",\"scheme\":\"file\"},\"name\
+  \":\"GitLens\",\"isBuiltin\":false,\"views\":[{\"when\":\"gitlens:views:welco\
+  me:visible\"}]}]"
 workbench.activityBar.location: default
 workbench.auxiliaryBar.empty: "false"
 workbench.auxiliaryBar.lastNonMaximizedSize: "300"
@@ -187,7 +195,7 @@ workbench.panel.placeholderPanels: '[{"id":"workbench.panel.markers","themeIcon"
   Preview","isBuiltin":true,"views":[{"when":"refactorPreview.enabled"}]}]'
 workbench.panel.repl.hidden: '[{"id":"workbench.panel.repl.view","isHidden":false}]'
 workbench.panel.size: "763"
-workbench.scm.views.state.hidden: '[{"id":"workbench.scm.repositories","isHidden":true},{"id":"workbench.scm","isHidden":false},{"id":"workbench.scm.history","isHidden":false}]'
+workbench.scm.views.state.hidden: '[{"id":"workbench.scm.repositories","isHidden":true},{"id":"workbench.scm","isHidden":false},{"id":"workbench.scm.history","isHidden":false},{"id":"gitlens.views.commits","isHidden":false},{"id":"gitlens.views.repositories","isHidden":false},{"id":"gitlens.views.fileHistory","isHidden":false},{"id":"gitlens.views.kylincommitsRelevant","isHidden":false},{"id":"gitlens.views.lineHistory","isHidden":true},{"id":"gitlens.views.branches","isHidden":false},{"id":"gitlens.views.remotes","isHidden":false},{"id":"gitlens.views.stashes","isHidden":false},{"id":"gitlens.views.tags","isHidden":false},{"id":"gitlens.views.contributors","isHidden":true},{"id":"gitlens.views.searchAndCompare","isHidden":false}]'
 workbench.sideBar.size: "300"
 workbench.view.debug.state.hidden: '[{"id":"workbench.debug.welcome","isHidden":false},{"id":"workbench.debug.variablesView","isHidden":false},{"id":"workbench.debug.watchExpressionsView","isHidden":false},{"id":"workbench.debug.callStackView","isHidden":false},{"id":"workbench.debug.loadedScriptsView","isHidden":false},{"id":"workbench.debug.breakPointsView","isHidden":false},{"id":"jsBrowserBreakpoints","isHidden":false},{"id":"jsExcludedCallers","isHidden":false},{"id":"jsDebugNetworkTree","isHidden":false},{"id":"lldb.loadedModules","isHidden":false},{"id":"lldb.excludedCallers","isHidden":false},{"id":"godotTools.activeSceneTree","isHidden":false},{"id":"godotTools.nodeInspector","isHidden":false},{"id":"debugger-compiled","isHidden":false}]'
 workbench.view.extension.ansible-explorer.state.hidden: '[{"id":"ansible-home","isHidden":false}]'
