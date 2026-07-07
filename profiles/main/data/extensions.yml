@@ -49,8 +49,6 @@ enabled:
     uuid: 0ffebccd-4265-4f2d-a855-db1adcf278c7
   - id: julialang.language-julia
     uuid: 038dd41f-4a41-48e3-87de-ab2ea4310780
-  - id: KylinIDETeam.gitlens
-    uuid: 60f5f3c1-a693-4d84-907a-5315b79617a0
   - id: laravel.vscode-laravel
     uuid: 77c91506-f6b9-4993-905d-bfafe12c1cce
   - id: mads-hartmann.bash-ide-vscode
