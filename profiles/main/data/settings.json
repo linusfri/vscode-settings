@@ -131,9 +131,7 @@
             "approveResponse": true
         },
         "https://larazeus.com": true,
-        "https://github.com": {
-            "approveResponse": true
-        },
+        "https://github.com": true,
         "https://raw.githubusercontent.com": {
             "approveRequest": false,
             "approveResponse": true
