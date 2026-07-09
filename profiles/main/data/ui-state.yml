@@ -168,7 +168,7 @@ workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.chat","themeI
   !chatSetupDisabledInWorkspace && !chatSetupHidden &&
   !config.chat.disableAIFeatures"}]}]'
 workbench.auxiliaryBar.size: "300"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["opentofu",true],["plaintext",true],["tailwindcss",true],["xml",true],["jsonc",true],["scss",true],["nix",true],["typescript",true],["javascript",true],["css",true],["typescriptreact",true],["php",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["opentofu",true],["plaintext",true],["tailwindcss",true],["xml",true],["jsonc",true],["scss",true],["nix",true],["javascript",true],["css",true],["typescript",true],["typescriptreact",true],["php",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true},{"id":"denoTasks","isHidden":true},{"id":"commitViewProvider","isHidden":false},{"id":"compareCommitViewProvider","isHidden":false},{"id":"go.explorer","isHidden":false},{"id":"go.package.outline","isHidden":false},{"id":"rustDependencies","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false}]'
 workbench.newDefaultThemeNotification: "true"
 workbench.panel.alignment: center
