@@ -151,7 +151,11 @@
         "https://marketplace.visualstudio.com/items": true,
         "https://marketplace.visualstudio.com": true,
         "https://github.com/zokugun/vscode-sync-settings": true,
-        "https://github.com/zokugun": true
+        "https://github.com/zokugun": true,
+        "https://nix-community.github.io": {
+            "approveRequest": true,
+            "approveResponse": false
+        }
     },
     "[gdscript]": {
         "editor.defaultFormatter": "geequlim.godot-tools",
