@@ -133,7 +133,6 @@
         "https://larazeus.com": true,
         "https://github.com": true,
         "https://raw.githubusercontent.com": {
-            "approveRequest": false,
             "approveResponse": true
         },
         "https://api.github.com": {
@@ -155,7 +154,13 @@
         "https://nix-community.github.io": {
             "approveRequest": true,
             "approveResponse": false
-        }
+        },
+        "https://raw.githubusercontent.com/flightlessmango/MangoHud/master/src/config.cpp": true,
+        "https://raw.githubusercontent.com/flightlessmango/MangoHud/master/src": true,
+        "https://raw.githubusercontent.com/flightlessmango/MangoHud/master": true,
+        "https://raw.githubusercontent.com/flightlessmango/MangoHud": true,
+        "https://raw.githubusercontent.com/flightlessmango": true,
+        "https://*.githubusercontent.com": true
     },
     "[gdscript]": {
         "editor.defaultFormatter": "geequlim.godot-tools",
