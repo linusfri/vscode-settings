@@ -1,6 +1,7 @@
 amiralizadeh9480.laravel-extra-intellisense: '{"laravel-extra-intellisense-version":"0.7.3"}'
 bmewburn.vscode-intelephense-client: '{"intelephense.licence.key":"003EAINHNQB4FL2","intelephenseVersion":"1.18.5"}'
 fill-labs.dependi: '{"dependi.deviceID":"c7c40c92-0bc8-4d03-be21-6a587c3ac8bb","dependi.shownVersion":"0.7.25"}'
+geequlim.godot-tools: '{"previousVersion":"2.7.1"}'
 jebbs.plantuml: '{"version":"2.18.1"}'
 KylinIDETeam.gitlens: '{"gitlens:views:welcome:visible":true,"gitlens:version":"0.1.10","gitlens:synced:version":"0.1.10"}'
 ms-python.vscode-python-envs: '{"globalSettingsMigration.systemEnvManagerRemoved":true}'
@@ -177,7 +178,7 @@ workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.chat","themeI
   !chatSetupDisabledInWorkspace && !chatSetupHidden &&
   !config.chat.disableAIFeatures"}]}]'
 workbench.auxiliaryBar.size: "912"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["yaml",true],["opentofu",true],["php",true],["tailwindcss",true],["typescript",true],["xml",true],["css",true],["jsonc",true],["typescriptreact",true],["scss",true],["nix",true],["plaintext",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["opentofu",true],["php",true],["tailwindcss",true],["typescript",true],["xml",true],["css",true],["jsonc",true],["typescriptreact",true],["scss",true],["nix",true],["gdresource",true],["plaintext",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true},{"id":"denoTasks","isHidden":true},{"id":"commitViewProvider","isHidden":false},{"id":"compareCommitViewProvider","isHidden":false},{"id":"go.explorer","isHidden":false},{"id":"go.package.outline","isHidden":false},{"id":"rustDependencies","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false}]'
 workbench.newDefaultThemeNotification: "true"
 workbench.panel.alignment: center
