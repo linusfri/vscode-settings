@@ -4,6 +4,7 @@ fill-labs.dependi: '{"dependi.deviceID":"c7c40c92-0bc8-4d03-be21-6a587c3ac8bb","
 geequlim.godot-tools: '{"previousVersion":"2.7.1"}'
 jebbs.plantuml: '{"version":"2.18.1"}'
 KylinIDETeam.gitlens: '{"gitlens:views:welcome:visible":true,"gitlens:version":"0.1.10","gitlens:synced:version":"0.1.10"}'
+ms-python.debugpy: '{"PYTHON_GLOBAL_STORAGE_KEYS":[{"key":"PYTHON_EXTENSION_GLOBAL_STORAGE_KEYS","defaultValue":[]}]}'
 ms-python.vscode-python-envs: '{"globalSettingsMigration.systemEnvManagerRemoved":true}'
 redhat.ansible: '{"lightspeed.migratedFromSettings":true}'
 vadimcn.vscode-lldb: '{"lastLaunchedVersion":"1.12.2"}'
