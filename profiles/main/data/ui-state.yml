@@ -9,7 +9,7 @@ ms-python.python: '{"PYTHON_WAS_DISCOVERY_TRIGGERED_/etc/nixos":true,"PYTHON_ENV
 ms-python.vscode-python-envs: '{"globalSettingsMigration.systemEnvManagerRemoved":true}'
 redhat.ansible: '{"lightspeed.migratedFromSettings":true}'
 vadimcn.vscode-lldb: '{"lastLaunchedVersion":"1.12.2"}'
-workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":false,"order":0},{"id":"workbench.view.search","pinned":true,"visible":false,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":false,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":false,"order":3},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extensions","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.voiceTranscriptsContainer","pinned":true,"visible":false,"order":10},{"id":"workbench.view.extension.python","pinned":true,"visible":false,"order":13},{"id":"workbench.view.extension.ansible-explorer","pinned":true,"visible":false,"order":15},{"id":"workbench.view.extension.github-actions","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.godotTools","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.julia-explorer","pinned":true,"visible":false,"order":10},{"id":"workbench.view.extension.opentofu","pinned":true,"visible":false,"order":14},{"id":"workbench.view.extension.pgObjectExplorer","pinned":true,"visible":false,"order":12},{"id":"workbench.view.extension.rustSyntaxTreeContainer","pinned":true,"visible":false,"order":16},{"id":"workbench.view.extension.copilot-chat","pinned":true,"visible":false,"order":17},{"id":"workbench.view.extension.context-inspector","pinned":true,"visible":false,"order":18},{"id":"workbench.view.extension.gitlens","pinned":true,"visible":false,"order":11}]'
+workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":false,"order":0},{"id":"workbench.view.search","pinned":true,"visible":false,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":false,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":false,"order":3},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extensions","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.voiceTranscriptsContainer","pinned":true,"visible":false,"order":10},{"id":"workbench.view.extension.python","pinned":true,"visible":false,"order":15},{"id":"workbench.view.extension.ansible-explorer","pinned":true,"visible":false,"order":17},{"id":"workbench.view.extension.github-actions","pinned":true,"visible":false,"order":11},{"id":"workbench.view.extension.godotTools","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.julia-explorer","pinned":true,"visible":false,"order":12},{"id":"workbench.view.extension.opentofu","pinned":true,"visible":false,"order":16},{"id":"workbench.view.extension.pgObjectExplorer","pinned":true,"visible":false,"order":14},{"id":"workbench.view.extension.rustSyntaxTreeContainer","pinned":true,"visible":false,"order":18},{"id":"workbench.view.extension.copilot-chat","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.context-inspector","pinned":true,"visible":false,"order":10},{"id":"workbench.view.extension.gitlens","pinned":true,"visible":false,"order":13}]'
 workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \"themeIcon\":{\"id\":\"explorer-view-icon\"},\"name\":\"Explorer\",\"isBuilt\
   in\":true,\"views\":[{},{},{},{\"when\":\"timelineHasProvider\"},{\"when\":\"\
@@ -164,14 +164,15 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   inRustProject\"}]},{\"id\":\"workbench.view.extension.copilot-chat\",\"iconUrl\
   \":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/github.copilot-chat-0.54.0/\
   assets/debug-icon.svg\",\"scheme\":\"file\"},\"name\":\"Chat
-  Debug\",\"isBuiltin\":false,\"views\":[]},{\"id\":\"workbench.view.extension.\
-  context-inspector\",\"themeIcon\":{\"id\":\"inspect\"},\"name\":\"Language
-  Context
-  Inspector\",\"isBuiltin\":false,\"views\":[]},{\"id\":\"workbench.view.extens\
-  ion.gitlens\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/kyli\
-  nideteam.gitlens-0.1.10-universal/images/gitlens-activitybar.svg\",\"scheme\":\
-  \"file\"},\"name\":\"GitLens\",\"isBuiltin\":false,\"views\":[{\"when\":\"git\
-  lens:views:welcome:visible\"}]}]"
+  Debug\",\"isBuiltin\":false,\"views\":[{\"when\":\"github.copilot.chat.showLo\
+  gView\"}]},{\"id\":\"workbench.view.extension.context-inspector\",\"themeIcon\
+  \":{\"id\":\"inspect\"},\"name\":\"Language Context
+  Inspector\",\"isBuiltin\":false,\"views\":[{\"when\":\"github.copilot.chat.sh\
+  owContextInspectorView\"}]},{\"id\":\"workbench.view.extension.gitlens\",\"ic\
+  onUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/kylinideteam.gitlens-0\
+  .1.10-universal/images/gitlens-activitybar.svg\",\"scheme\":\"file\"},\"name\
+  \":\"GitLens\",\"isBuiltin\":false,\"views\":[{\"when\":\"gitlens:views:welco\
+  me:visible\"}]}]"
 workbench.activityBar.location: default
 workbench.auxiliaryBar.empty: "false"
 workbench.auxiliaryBar.lastNonMaximizedSize: "300"
