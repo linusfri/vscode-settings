@@ -1,4 +1,6 @@
-disabled: []
+disabled:
+  - id: GitHub.copilot-chat
+    uuid: 7ec7d6e6-b89e-4cc5-a59b-d6c4d238246f
 enabled:
   - id: 4ops.terraform
     uuid: b861aa84-146f-440f-b6be-76124b02b729
@@ -93,6 +95,7 @@ enabled:
   - id: TimsExperiments.vscode-tailwindcss
     uuid: f03ebb44-cd7a-4b18-b16f-0df1962f474d
   - id: vadimcn.vscode-lldb
+    uuid: bee31e34-a44b-4a76-9ec2-e9fd1439a0f6
   - id: xabikos.JavaScriptSnippets
     uuid: a2cec723-5349-460d-9de9-0fd1f8d3456f
   - id: Zignd.html-css-class-completion
