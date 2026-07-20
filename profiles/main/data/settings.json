@@ -160,7 +160,11 @@
         "https://raw.githubusercontent.com/flightlessmango/MangoHud/master": true,
         "https://raw.githubusercontent.com/flightlessmango/MangoHud": true,
         "https://raw.githubusercontent.com/flightlessmango": true,
-        "https://*.githubusercontent.com": true
+        "https://*.githubusercontent.com": true,
+        "https://search.nixos.org": {
+            "approveRequest": false,
+            "approveResponse": true
+        }
     },
     "[gdscript]": {
         "editor.defaultFormatter": "geequlim.godot-tools",
