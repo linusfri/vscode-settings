@@ -166,7 +166,12 @@
             "approveRequest": false,
             "approveResponse": true
         },
-        "https://wiki.nixos.org": true
+        "https://wiki.nixos.org": true,
+        "https://www.google.com": {
+            "approveRequest": false,
+            "approveResponse": true
+        },
+        "https://searchfox.org": true
     },
     "[gdscript]": {
         "editor.defaultFormatter": "geequlim.godot-tools",
