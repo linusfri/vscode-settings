@@ -1,0 +1,19 @@
+{
+	"classNameWithCn": {
+		"prefix": "cn",
+		"body": [
+			"className={cn('$1')}"
+		],
+		"description": "className with cn helper"
+	},
+	"classNameCnMulti": {
+		"prefix": "cnm",
+		"body": [
+			"className={cn(",
+			"'$1',",
+			"$2",
+			")}"
+		],
+		"description": "className with cn helper - multiline"
+	}
+}
