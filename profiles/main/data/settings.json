@@ -179,7 +179,8 @@
         "https://discourse.nixos.org/t/virt-manager-usb-redirection-spice-client-glib-usb-acl-helper": true,
         "https://discourse.nixos.org/t": true,
         "https://discourse.nixos.org": true,
-        "https://*.nixos.org": true
+        "https://*.nixos.org": true,
+        "https://registry.terraform.io": true
     },
     "[gdscript]": {
         "editor.defaultFormatter": "geequlim.godot-tools",
