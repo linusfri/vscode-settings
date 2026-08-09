@@ -222,4 +222,5 @@
         "**/.forgejo/workflows/*.yaml"
     ],
     "security.workspace.trust.untrustedFiles": "open",
+    "chat.viewSessions.orientation": "stacked",
 }
