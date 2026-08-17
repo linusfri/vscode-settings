@@ -179,11 +179,7 @@
         "https://discourse.nixos.org/t": true,
         "https://discourse.nixos.org": true,
         "https://*.nixos.org": true,
-        "https://registry.terraform.io": true,
-        "https://spinupwp.com/api": true,
-        "https://spinupwp.com": true,
-        "https://api-docs.spinupwp.com": true,
-        "https://*.spinupwp.com": true
+        "https://registry.terraform.io": true
     },
     "[gdscript]": {
         "editor.defaultFormatter": "geequlim.godot-tools",
