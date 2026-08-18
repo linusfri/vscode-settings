@@ -183,7 +183,11 @@
         "https://spinupwp.com/api": true,
         "https://spinupwp.com": true,
         "https://api-docs.spinupwp.com": true,
-        "https://*.spinupwp.com": true
+        "https://*.spinupwp.com": true,
+        "https://wordpress.org/news/category/releases": true,
+        "https://wordpress.org/news/category": true,
+        "https://wordpress.org/news": true,
+        "https://wordpress.org": true
     },
     "[gdscript]": {
         "editor.defaultFormatter": "geequlim.godot-tools",
