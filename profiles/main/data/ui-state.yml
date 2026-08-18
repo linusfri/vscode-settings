@@ -5,7 +5,7 @@ fill-labs.dependi: '{"dependi.deviceID":"c7c40c92-0bc8-4d03-be21-6a587c3ac8bb","
 geequlim.godot-tools: '{"previousVersion":"2.7.1"}'
 jebbs.plantuml: '{"version":"2.18.1"}'
 KylinIDETeam.gitlens: '{"gitlens:views:welcome:visible":true,"gitlens:version":"0.1.10","gitlens:synced:version":"0.1.10"}'
-laravel.vscode-laravel: '{"laravel.lsp.lastUpdateCheck":1786963971593}'
+laravel.vscode-laravel: '{"laravel.lsp.lastUpdateCheck":1787041332854}'
 ms-python.debugpy: '{"PYTHON_GLOBAL_STORAGE_KEYS":[{"key":"PYTHON_EXTENSION_GLOBAL_STORAGE_KEYS","defaultValue":[]}]}'
 ms-python.vscode-python-envs: '{"globalSettingsMigration.systemEnvManagerRemoved":true}'
 redhat.ansible: '{"lightspeed.migratedFromSettings":true}'
@@ -184,7 +184,7 @@ workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.chat","themeI
   !chatSetupDisabledInWorkspace && !chatSetupHidden &&
   !config.chat.disableAIFeatures"}]}]'
 workbench.auxiliaryBar.size: "300"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["json",true],["opentofu",true],["typescript",true],["php",true],["ignore",true],["markdown",true],["log",true],["NGINX",true],["shellscript",true],["yaml",true],["plaintext",true],["nix",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["json",true],["opentofu",true],["typescript",true],["php",true],["ignore",true],["markdown",true],["log",true],["NGINX",true],["shellscript",true],["nix",true],["plaintext",true],["yaml",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true},{"id":"denoTasks","isHidden":true},{"id":"commitViewProvider","isHidden":false},{"id":"compareCommitViewProvider","isHidden":false},{"id":"go.explorer","isHidden":false},{"id":"go.package.outline","isHidden":false},{"id":"rustDependencies","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false}]'
 workbench.newDefaultThemeNotification: "true"
 workbench.panel.alignment: center
