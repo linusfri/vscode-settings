@@ -179,7 +179,15 @@
         "https://discourse.nixos.org/t": true,
         "https://discourse.nixos.org": true,
         "https://*.nixos.org": true,
-        "https://registry.terraform.io": true
+        "https://registry.terraform.io": true,
+        "https://download.nvidia.com": {
+            "approveRequest": true,
+            "approveResponse": false
+        },
+        "https://download.nvidia.com/XFree86/Linux-x86_64/latest.txt": {
+            "approveRequest": false,
+            "approveResponse": true
+        }
     },
     "[gdscript]": {
         "editor.defaultFormatter": "geequlim.godot-tools",
