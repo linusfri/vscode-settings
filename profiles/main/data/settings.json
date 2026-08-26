@@ -193,7 +193,16 @@
             "approveRequest": false,
             "approveResponse": true
         },
-        "https://packages.bravomedia.se": true
+        "https://packages.bravomedia.se": true,
+        "https://code.visualstudio.com/docs/copilot/chat/mcp-servers": true,
+        "https://code.visualstudio.com/docs/copilot/chat": true,
+        "https://code.visualstudio.com/docs/copilot": true,
+        "https://code.visualstudio.com/docs": true,
+        "https://*.visualstudio.com": true,
+        "https://www.figma.com/developers/mcp": true,
+        "https://www.figma.com/developers": true,
+        "https://www.figma.com": true,
+        "https://*.figma.com": true
     },
     "[gdscript]": {
         "editor.defaultFormatter": "geequlim.godot-tools",
