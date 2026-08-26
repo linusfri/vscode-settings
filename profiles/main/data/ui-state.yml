@@ -184,13 +184,8 @@ workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.chat","themeI
   !chatSetupDisabledInWorkspace && !chatSetupHidden &&
   !config.chat.disableAIFeatures"}]}]'
 workbench.auxiliaryBar.size: "300"
-<<<<<<< HEAD
-workbench.editor.languageDetectionOpenedLanguages.global: '[["markdown",true],["opentofu",true],["ignore",true],["yaml",true],["nix",true],["php",true],["json",true],["jsonc",true],["javascript",true],["typescript",true],["plaintext",true],["typescriptreact",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["markdown",true],["opentofu",true],["ignore",true],["yaml",true],["nix",true],["php",true],["json",true],["javascript",true],["plaintext",true],["typescript",true],["jsonc",true],["typescriptreact",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true},{"id":"denoTasks","isHidden":true},{"id":"commitViewProvider","isHidden":false},{"id":"compareCommitViewProvider","isHidden":false},{"id":"go.explorer","isHidden":false},{"id":"go.package.outline","isHidden":false},{"id":"rustDependencies","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"opentofu.providers","isHidden":false},{"id":"opentofu.modules","isHidden":false}]'
-=======
-workbench.editor.languageDetectionOpenedLanguages.global: '[["css",true],["typescriptreact",true],["properties",true],["markdown",true],["editorconfig",true],["plaintext",true],["yaml",true],["ignore",true],["shellscript",true],["nix",true],["php",true],["json",true]]'
-workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true},{"id":"denoTasks","isHidden":true},{"id":"commitViewProvider","isHidden":false},{"id":"compareCommitViewProvider","isHidden":false},{"id":"go.explorer","isHidden":false},{"id":"go.package.outline","isHidden":false},{"id":"rustDependencies","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false}]'
->>>>>>> 0035b6d67902e5dcf2e4d20fd9a0634921037738
 workbench.newDefaultThemeNotification: "true"
 workbench.panel.alignment: center
 workbench.panel.chat.hidden: '[{"id":"workbench.panel.chat.view.copilot","isHidden":false}]'
