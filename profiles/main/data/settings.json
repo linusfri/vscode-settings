@@ -111,6 +111,7 @@
     },
     "chat.tools.terminal.autoApprove": {
         "terraflake": true,
+        "tofu": true
     },
     "gitlens.ai.model": "vscode",
     "gitlens.ai.vscode.model": "copilot:gpt-4.1",
@@ -187,7 +188,6 @@
         "https://wordpress.org/news/category/releases": true,
         "https://wordpress.org/news/category": true,
         "https://wordpress.org/news": true,
-<<<<<<< HEAD
         "https://wordpress.org": true,
         "https://wpackagist.org": {
             "approveRequest": false,
@@ -203,9 +203,6 @@
         "https://www.figma.com/developers": true,
         "https://www.figma.com": true,
         "https://*.figma.com": true
-=======
-        "https://wordpress.org": true
->>>>>>> 8af073e2555720ac7bbf157835409077d5fbc929
     },
     "[gdscript]": {
         "editor.defaultFormatter": "geequlim.godot-tools",
@@ -249,4 +246,5 @@
     ],
     "security.workspace.trust.untrustedFiles": "open",
     "chat.viewSessions.orientation": "stacked",
+    "opentofu.languageServer.enable": true,
 }
