@@ -176,7 +176,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   me:visible\"}]}]"
 workbench.activityBar.location: default
 workbench.auxiliaryBar.empty: "false"
-workbench.auxiliaryBar.lastNonMaximizedSize: "510"
+workbench.auxiliaryBar.lastNonMaximizedSize: "300"
 workbench.auxiliarybar.pinnedPanels: '[{"id":"workbench.panel.chat","pinned":true,"visible":false,"order":1}]'
 workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.chat","themeIcon":{"id":"chat-view-icon"},"name":"Chat","isBuiltin":true,"views":[{"when":"chatExtensionInvalid
   && !chatAccountPolicyGateActive || chatPanelParticipantRegistered &&
