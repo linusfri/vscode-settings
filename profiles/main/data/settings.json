@@ -231,4 +231,5 @@
     ],
     "security.workspace.trust.untrustedFiles": "open",
     "chat.viewSessions.orientation": "stacked",
+    "chat.mcp.autostart": "never",
 }
