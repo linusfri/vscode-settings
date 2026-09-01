@@ -247,4 +247,5 @@
     "security.workspace.trust.untrustedFiles": "open",
     "chat.viewSessions.orientation": "stacked",
     "opentofu.languageServer.enable": true,
+    "pgsql.copilot.enable": false,
 }
