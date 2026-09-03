@@ -111,7 +111,6 @@
     },
     "chat.tools.terminal.autoApprove": {
         "terraflake": true,
-        "tofu": true
     },
     "gitlens.ai.model": "vscode",
     "gitlens.ai.vscode.model": "copilot:gpt-4.1",
@@ -181,28 +180,14 @@
         "https://discourse.nixos.org": true,
         "https://*.nixos.org": true,
         "https://registry.terraform.io": true,
-        "https://spinupwp.com/api": true,
-        "https://spinupwp.com": true,
-        "https://api-docs.spinupwp.com": true,
-        "https://*.spinupwp.com": true,
-        "https://wordpress.org/news/category/releases": true,
-        "https://wordpress.org/news/category": true,
-        "https://wordpress.org/news": true,
-        "https://wordpress.org": true,
-        "https://wpackagist.org": {
+        "https://download.nvidia.com": {
+            "approveRequest": true,
+            "approveResponse": false
+        },
+        "https://download.nvidia.com/XFree86/Linux-x86_64/latest.txt": {
             "approveRequest": false,
             "approveResponse": true
-        },
-        "https://packages.bravomedia.se": true,
-        "https://code.visualstudio.com/docs/copilot/chat/mcp-servers": true,
-        "https://code.visualstudio.com/docs/copilot/chat": true,
-        "https://code.visualstudio.com/docs/copilot": true,
-        "https://code.visualstudio.com/docs": true,
-        "https://*.visualstudio.com": true,
-        "https://www.figma.com/developers/mcp": true,
-        "https://www.figma.com/developers": true,
-        "https://www.figma.com": true,
-        "https://*.figma.com": true
+        }
     },
     "[gdscript]": {
         "editor.defaultFormatter": "geequlim.godot-tools",
@@ -246,6 +231,5 @@
     ],
     "security.workspace.trust.untrustedFiles": "open",
     "chat.viewSessions.orientation": "stacked",
-    "opentofu.languageServer.enable": true,
-    "pgsql.copilot.enable": false,
+    "chat.mcp.autostart": "never",
 }
