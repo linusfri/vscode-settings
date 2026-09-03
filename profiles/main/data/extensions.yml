@@ -57,8 +57,6 @@ enabled:
     uuid: b1b0f283-8246-4e90-832e-a6c409d378d1
   - id: mgmcdermott.vscode-language-babel
     uuid: dd5a2c83-ad8c-4839-a529-0644e5acb646
-  - id: microsoft.cursor-pgsql
-    uuid: 1f1bdf87-5ed9-4664-9a01-19fd1a076ab1
   - id: mrmlnc.vscode-scss
     uuid: beb68b20-7c55-471c-9b63-3486f9423566
   - id: ms-python.debugpy
