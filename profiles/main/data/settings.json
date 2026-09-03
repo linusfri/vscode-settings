@@ -134,10 +134,7 @@
         "https://raw.githubusercontent.com": {
             "approveResponse": true
         },
-        "https://api.github.com": {
-            "approveRequest": false,
-            "approveResponse": true
-        },
+        "https://api.github.com": true,
         "https://jsr.io/@fresh/plugin-vite/1.0.8/src/plugin.ts": {
             "approveRequest": true,
             "approveResponse": false
@@ -187,7 +184,14 @@
         "https://download.nvidia.com/XFree86/Linux-x86_64/latest.txt": {
             "approveRequest": false,
             "approveResponse": true
-        }
+        },
+        "https://sourcegraph.com/search": {
+            "approveRequest": true,
+            "approveResponse": false
+        },
+        "https://api.github.com/search/code": true,
+        "https://api.github.com/search": true,
+        "https://*.github.com": true
     },
     "[gdscript]": {
         "editor.defaultFormatter": "geequlim.godot-tools",
