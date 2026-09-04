@@ -1,5 +1,6 @@
 amiralizadeh9480.laravel-extra-intellisense: '{"laravel-extra-intellisense-version":"0.7.3"}'
 bmewburn.vscode-intelephense-client: '{"intelephense.licence.key":"003EAINHNQB4FL2","intelephenseVersion":"1.18.5"}'
+charliermarsh.ruff: '{"ruff.pythonEnvironmentRecommendationShown":true}'
 fill-labs.dependi: '{"dependi.deviceID":"c7c40c92-0bc8-4d03-be21-6a587c3ac8bb","dependi.shownVersion":"0.7.28"}'
 geequlim.godot-tools: '{"previousVersion":"2.7.1"}'
 jebbs.plantuml: '{"version":"2.18.1"}'
@@ -9,7 +10,7 @@ ms-python.debugpy: '{"PYTHON_GLOBAL_STORAGE_KEYS":[{"key":"PYTHON_EXTENSION_GLOB
 ms-python.vscode-python-envs: '{"globalSettingsMigration.systemEnvManagerRemoved":true}'
 redhat.ansible: '{"lightspeed.migratedFromSettings":true}'
 rust-lang.rust-analyzer: '{"serverVersion":"0.3.3025"}'
-vadimcn.vscode-lldb: '{"lastLaunchedVersion":"1.12.3"}'
+vadimcn.vscode-lldb: '{"lastLaunchedVersion":"1.12.2"}'
 workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":false,"order":0},{"id":"workbench.view.search","pinned":true,"visible":false,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":false,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":false,"order":3},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extensions","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.voiceTranscriptsContainer","pinned":true,"visible":false,"order":10},{"id":"workbench.view.extension.python","pinned":true,"visible":false,"order":14},{"id":"workbench.view.extension.ansible-explorer","pinned":true,"visible":false,"order":16},{"id":"workbench.view.extension.github-actions","pinned":true,"visible":false,"order":11},{"id":"workbench.view.extension.godotTools","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.julia-explorer","pinned":true,"visible":false,"order":12},{"id":"workbench.view.extension.opentofu","pinned":true,"visible":false,"order":15},{"id":"workbench.view.extension.rustSyntaxTreeContainer","pinned":true,"visible":false,"order":17},{"id":"workbench.view.extension.gitlens","pinned":true,"visible":false,"order":13},{"id":"workbench.view.extension.copilot-chat","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.context-inspector","pinned":true,"visible":false,"order":10}]'
 workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \"themeIcon\":{\"id\":\"explorer-view-icon\"},\"name\":\"Explorer\",\"isBuilt\
