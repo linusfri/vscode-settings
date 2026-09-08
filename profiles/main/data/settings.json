@@ -1,239 +1,239 @@
 {
-    "workbench.iconTheme": "material-icon-theme",
-    "explorer.confirmDelete": false,
-    "explorer.compactFolders": false,
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "LaravelExtraIntellisense.phpCommand": ".devenv/profile/bin/php -r \"{code}\"",
+  "[dockercompose]": {
+    "editor.autoIndent": "advanced",
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[gdscript]": {
+    "editor.defaultFormatter": "geequlim.godot-tools"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "chat.agent.enabled": true,
+  "chat.disableAIFeatures": false,
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true
+  },
+  "chat.mcp.autostart": "never",
+  "chat.tools.terminal.autoApprove": {
+    "terraflake": true
+  },
+  "chat.tools.urls.autoApprove": {
+    "https://*.github.com": true,
+    "https://*.githubusercontent.com": true,
+    "https://*.nixos.org": true,
+    "https://api.github.com": true,
+    "https://api.github.com/search": true,
+    "https://api.github.com/search/code": true,
+    "https://code.visualstudio.com": true,
+    "https://discourse.nixos.org": true,
+    "https://discourse.nixos.org/t": true,
+    "https://discourse.nixos.org/t/virt-manager-usb-redirection-spice-client-glib-usb-acl-helper": true,
+    "https://docs.hercules-ci.com/arion": true,
+    "https://download.nvidia.com": {
+      "approveRequest": true,
+      "approveResponse": false
     },
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "https://download.nvidia.com/XFree86/Linux-x86_64/latest.txt": {
+      "approveRequest": false,
+      "approveResponse": true
     },
-    "code-runner.runInTerminal": true,
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "https://github.com": true,
+    "https://github.com/microsoft/vscode/wiki/*": true,
+    "https://github.com/nixos": true,
+    "https://github.com/nixos/nixpkgs": true,
+    "https://github.com/nixos/nixpkgs/issues": true,
+    "https://github.com/nixos/nixpkgs/issues/40773": true,
+    "https://github.com/zokugun": true,
+    "https://github.com/zokugun/vscode-sync-settings": true,
+    "https://gleam-time.hexdocs.pm": true,
+    "https://jsr.io": true,
+    "https://jsr.io/@fresh/plugin-vite/1.0.8/src/plugin.ts": {
+      "approveRequest": true,
+      "approveResponse": false
     },
-    "nix.enableLanguageServer": true,
-    "nix.serverPath": "nil",
-    "nix.serverSettings": {
-        "nil": {
-            "formatting": {
-                "command": [
-                    "nixfmt"
-                ],
-            },
-        },
+    "https://larazeus.com": true,
+    "https://marketplace.visualstudio.com": true,
+    "https://marketplace.visualstudio.com/items": true,
+    "https://nix-community.github.io": {
+      "approveRequest": true,
+      "approveResponse": false
     },
-    "code-runner.executorMap": {
-        "javascript": "node",
-        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
-        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "zig": "zig run",
-        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "php": "php",
-        "python": "python -u",
-        "perl": "perl",
-        "perl6": "perl6",
-        "ruby": "ruby",
-        "go": "go run",
-        "lua": "lua",
-        "groovy": "groovy",
-        "powershell": "powershell -ExecutionPolicy ByPass -File",
-        "bat": "cmd /c",
-        "shellscript": "bash",
-        "fsharp": "fsi",
-        "csharp": "dotnet run",
-        "vbscript": "cscript //Nologo",
-        "typescript": "ts-node $fileName 2> /dev/null || deno run $fileName",
-        "coffeescript": "coffee",
-        "scala": "scala",
-        "swift": "swift",
-        "julia": "julia",
-        "crystal": "crystal",
-        "ocaml": "ocaml",
-        "r": "Rscript",
-        "applescript": "osascript",
-        "clojure": "lein exec",
-        "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
-        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
-        "racket": "racket",
-        "scheme": "csi -script",
-        "ahk": "autohotkey",
-        "autoit": "autoit3",
-        "dart": "dart",
-        "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
-        "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
-        "haskell": "runghc",
-        "nim": "nim compile --verbosity:0 --hints:off --run",
-        "lisp": "sbcl --script",
-        "kit": "kitc --run",
-        "v": "v run",
-        "sass": "sass --style expanded",
-        "scss": "scss --style expanded",
-        "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
-        "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "sml": "cd $dir && sml $fileName",
-        "mojo": "mojo run",
-        "erlang": "escript",
-        "spwn": "spwn build",
-        "pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
-        "gleam": "gleam run -m $fileNameWithoutExt",
+    "https://nixos.org": {
+      "approveRequest": false,
+      "approveResponse": true
     },
-    "editor.inlayHints.enabled": "offUnlessPressed",
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "https://raw.githubusercontent.com": {
+      "approveResponse": true
     },
-    "cpplint.cpplintPath": ".devenv/profile/bin/cpplint",
-    "python.analysis.typeCheckingMode": "strict",
-    "github.copilot.chat.codesearch.enabled": true,
-    "chat.agent.enabled": true,
-    "LaravelExtraIntellisense.phpCommand": ".devenv/profile/bin/php -r \"{code}\"",
-    "[php]": {
-        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    "https://raw.githubusercontent.com/flightlessmango": true,
+    "https://raw.githubusercontent.com/flightlessmango/MangoHud": true,
+    "https://raw.githubusercontent.com/flightlessmango/MangoHud/master": true,
+    "https://raw.githubusercontent.com/flightlessmango/MangoHud/master/src": true,
+    "https://raw.githubusercontent.com/flightlessmango/MangoHud/master/src/config.cpp": true,
+    "https://registry.terraform.io": true,
+    "https://search.nixos.org": true,
+    "https://searchfox.org": true,
+    "https://sourcegraph.com/search": {
+      "approveRequest": true,
+      "approveResponse": false
     },
-    "editor.fontFamily": "'Noto Sans Mono','DejaVu Sans Mono','Droid Sans Mono', monospace",
-    "github.copilot.nextEditSuggestions.enabled": true,
-    "chat.instructionsFilesLocations": {
-        ".github/instructions": true,
+    "https://spatie.be": {
+      "approveRequest": false,
+      "approveResponse": true
     },
-    "redhat.telemetry.enabled": false,
-    "[dockercompose]": {
-        "editor.insertSpaces": true,
-        "editor.tabSize": 2,
-        "editor.autoIndent": "advanced",
-        "editor.defaultFormatter": "redhat.vscode-yaml",
+    "https://spatie.be/docs/laravel-data/v4/introduction": {
+      "approveRequest": true,
+      "approveResponse": false
     },
-    "[github-actions-workflow]": {
-        "editor.defaultFormatter": "redhat.vscode-yaml",
-    },
-    "chat.tools.terminal.autoApprove": {
-        "terraflake": true,
-    },
-    "gitlens.ai.model": "vscode",
-    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-    },
-    "workbench.colorTheme": "Dark+",
-    "chat.tools.urls.autoApprove": {
-        "https://code.visualstudio.com": true,
-        "https://github.com/microsoft/vscode/wiki/*": true,
-        "https://spatie.be/docs/laravel-data/v4/introduction": {
-            "approveRequest": true,
-            "approveResponse": false
-        },
-        "https://spatie.be": {
-            "approveRequest": false,
-            "approveResponse": true
-        },
-        "https://larazeus.com": true,
-        "https://github.com": true,
-        "https://raw.githubusercontent.com": {
-            "approveResponse": true
-        },
-        "https://api.github.com": true,
-        "https://jsr.io/@fresh/plugin-vite/1.0.8/src/plugin.ts": {
-            "approveRequest": true,
-            "approveResponse": false
-        },
-        "https://jsr.io": true,
-        "https://gleam-time.hexdocs.pm": true,
-        "https://docs.hercules-ci.com/arion": true,
-        "https://tailwindcss.com": true,
-        "https://marketplace.visualstudio.com/items": true,
-        "https://marketplace.visualstudio.com": true,
-        "https://github.com/zokugun/vscode-sync-settings": true,
-        "https://github.com/zokugun": true,
-        "https://nix-community.github.io": {
-            "approveRequest": true,
-            "approveResponse": false
-        },
-        "https://raw.githubusercontent.com/flightlessmango/MangoHud/master/src/config.cpp": true,
-        "https://raw.githubusercontent.com/flightlessmango/MangoHud/master/src": true,
-        "https://raw.githubusercontent.com/flightlessmango/MangoHud/master": true,
-        "https://raw.githubusercontent.com/flightlessmango/MangoHud": true,
-        "https://raw.githubusercontent.com/flightlessmango": true,
-        "https://*.githubusercontent.com": true,
-        "https://search.nixos.org": true,
-        "https://nixos.org": {
-            "approveRequest": false,
-            "approveResponse": true
-        },
-        "https://wiki.nixos.org": true,
-        "https://www.google.com": {
-            "approveRequest": false,
-            "approveResponse": true
-        },
-        "https://searchfox.org": true,
-        "https://github.com/nixos/nixpkgs/issues/40773": true,
-        "https://github.com/nixos/nixpkgs/issues": true,
-        "https://github.com/nixos/nixpkgs": true,
-        "https://github.com/nixos": true,
-        "https://discourse.nixos.org/t/virt-manager-usb-redirection-spice-client-glib-usb-acl-helper": true,
-        "https://discourse.nixos.org/t": true,
-        "https://discourse.nixos.org": true,
-        "https://*.nixos.org": true,
-        "https://registry.terraform.io": true,
-        "https://download.nvidia.com": {
-            "approveRequest": true,
-            "approveResponse": false
-        },
-        "https://download.nvidia.com/XFree86/Linux-x86_64/latest.txt": {
-            "approveRequest": false,
-            "approveResponse": true
-        },
-        "https://sourcegraph.com/search": {
-            "approveRequest": true,
-            "approveResponse": false
-        },
-        "https://api.github.com/search/code": true,
-        "https://api.github.com/search": true,
-        "https://*.github.com": true
-    },
-    "[gdscript]": {
-        "editor.defaultFormatter": "geequlim.godot-tools",
-    },
-    "terminal.integrated.commandsToSkipShell": [
-        "language-julia.interrupt"
-    ],
-    "julia.symbolCacheDownload": true,
-    "julia.enableCrashReporter": false,
-    "julia.juliaup.install.hint": false,
-    "chat.disableAIFeatures": false,
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features",
-    },
-    "syncSettings.resources": [
-        "extensions",
-        "keybindings",
-        "settings",
-        "snippets",
-        "tasks",
-        "uiState"
-    ],
-    "syncSettings.confirmSync": false,
-    "syncSettings.crons": {
-        "review": "0 * * * *",
-        "upload": "*/5 * * * *"
-    },
-    "github.copilot.enable": {
-        "*": false,
-        "plaintext": false,
-        "markdown": false,
-        "scminput": false
-    },
-    "yaml.disableSchemaDetection": [
-        "**/.github/workflows/*.yml",
-        "**/.github/workflows/*.yaml",
-        "**/.gitea/workflows/*.yml",
-        "**/.gitea/workflows/*.yaml",
-        "**/.forgejo/workflows/*.yml",
-        "**/.forgejo/workflows/*.yaml"
-    ],
-    "security.workspace.trust.untrustedFiles": "open",
-    "chat.viewSessions.orientation": "stacked",
-    "chat.mcp.autostart": "never",
+    "https://tailwindcss.com": true,
+    "https://wiki.nixos.org": true,
+    "https://www.google.com": {
+      "approveRequest": false,
+      "approveResponse": true
+    }
+  },
+  "chat.viewSessions.orientation": "stacked",
+  "code-runner.executorMap": {
+    "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "ahk": "autohotkey",
+    "applescript": "osascript",
+    "autoit": "autoit3",
+    "bat": "cmd /c",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "clojure": "lein exec",
+    "coffeescript": "coffee",
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "crystal": "crystal",
+    "csharp": "dotnet run",
+    "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+    "dart": "dart",
+    "erlang": "escript",
+    "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fsharp": "fsi",
+    "gleam": "gleam run -m $fileNameWithoutExt",
+    "go": "go run",
+    "groovy": "groovy",
+    "haskell": "runghc",
+    "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "javascript": "node",
+    "julia": "julia",
+    "kit": "kitc --run",
+    "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+    "lisp": "sbcl --script",
+    "lua": "lua",
+    "mojo": "mojo run",
+    "nim": "nim compile --verbosity:0 --hints:off --run",
+    "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "ocaml": "ocaml",
+    "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+    "perl": "perl",
+    "perl6": "perl6",
+    "php": "php",
+    "pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
+    "powershell": "powershell -ExecutionPolicy ByPass -File",
+    "python": "python -u",
+    "r": "Rscript",
+    "racket": "racket",
+    "ruby": "ruby",
+    "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+    "sass": "sass --style expanded",
+    "scala": "scala",
+    "scheme": "csi -script",
+    "scss": "scss --style expanded",
+    "shellscript": "bash",
+    "sml": "cd $dir && sml $fileName",
+    "spwn": "spwn build",
+    "swift": "swift",
+    "typescript": "ts-node $fileName 2> /dev/null || deno run $fileName",
+    "v": "v run",
+    "vbscript": "cscript //Nologo",
+    "zig": "zig run"
+  },
+  "code-runner.runInTerminal": true,
+  "cpplint.cpplintPath": ".devenv/profile/bin/cpplint",
+  "editor.fontFamily": "'Noto Sans Mono','DejaVu Sans Mono','Droid Sans Mono', monospace",
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "github.copilot.chat.codesearch.enabled": true,
+  "github.copilot.enable": {
+    "*": false,
+    "markdown": false,
+    "plaintext": false,
+    "scminput": false
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "julia.enableCrashReporter": false,
+  "julia.juliaup.install.hint": false,
+  "julia.symbolCacheDownload": true,
+  "nix.enableLanguageServer": true,
+  "nix.serverPath": "nil",
+  "nix.serverSettings": {
+    "nil": {
+      "formatting": {
+        "command": [
+          "nixfmt"
+        ]
+      }
+    }
+  },
+  "python.analysis.typeCheckingMode": "strict",
+  "redhat.telemetry.enabled": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "syncSettings.confirmSync": false,
+  "syncSettings.crons": {
+    "review": "0 * * * *",
+    "upload": "*/5 * * * *"
+  },
+  "syncSettings.resources": [
+    "extensions",
+    "keybindings",
+    "settings",
+    "snippets",
+    "tasks",
+    "uiState"
+  ],
+  "terminal.integrated.commandsToSkipShell": [
+    "language-julia.interrupt"
+  ],
+  "workbench.colorTheme": "Dark+",
+  "workbench.iconTheme": "material-icon-theme",
+  "yaml.disableSchemaDetection": [
+    "**/.github/workflows/*.yml",
+    "**/.github/workflows/*.yaml",
+    "**/.gitea/workflows/*.yml",
+    "**/.gitea/workflows/*.yaml",
+    "**/.forgejo/workflows/*.yml",
+    "**/.forgejo/workflows/*.yaml"
+  ]
 }
